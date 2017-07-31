@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1350E28C1F2B3DC90072ED26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E28B1F2B3DC90072ED26 /* main.m */; };
+		1350E28F1F2B3DC90072ED26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E28E1F2B3DC90072ED26 /* AppDelegate.m */; };
+		1350E2921F2B3DC90072ED26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2911F2B3DC90072ED26 /* ViewController.m */; };
+		1350E2951F2B3DC90072ED26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1350E2931F2B3DC90072ED26 /* Main.storyboard */; };
+		1350E2971F2B3DC90072ED26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1350E2961F2B3DC90072ED26 /* Assets.xcassets */; };
+		1350E29A1F2B3DC90072ED26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1350E2981F2B3DC90072ED26 /* LaunchScreen.storyboard */; };
+		1350E2A51F2B3DC90072ED26 /* CodeIgniterIOSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2A41F2B3DC90072ED26 /* CodeIgniterIOSTestTests.m */; };
+		1350E2B01F2B3DC90072ED26 /* CodeIgniterIOSTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2AF1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests.m */; };
+		1350E2CE1F2B3E190072ED26 /* CMMapHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2BF1F2B3E190072ED26 /* CMMapHTTPSessionManager.m */; };
+		1350E2CF1F2B3E190072ED26 /* CMMapNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2C21F2B3E190072ED26 /* CMMapNetworkReachabilityManager.m */; };
+		1350E2D01F2B3E190072ED26 /* CMMapSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2C41F2B3E190072ED26 /* CMMapSecurityPolicy.m */; };
+		1350E2D11F2B3E190072ED26 /* CMMapURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2C61F2B3E190072ED26 /* CMMapURLRequestSerialization.m */; };
+		1350E2D21F2B3E190072ED26 /* CMMapURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2C81F2B3E190072ED26 /* CMMapURLResponseSerialization.m */; };
+		1350E2D31F2B3E190072ED26 /* CMMapURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2CA1F2B3E190072ED26 /* CMMapURLSessionManager.m */; };
+		1350E2D41F2B3E190072ED26 /* CMMapNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1350E2CD1F2B3E190072ED26 /* CMMapNetworkingManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1350E2A11F2B3DC90072ED26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1350E27F1F2B3DC90072ED26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1350E2861F2B3DC90072ED26;
+			remoteInfo = CodeIgniterIOSTest;
+		};
+		1350E2AC1F2B3DC90072ED26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1350E27F1F2B3DC90072ED26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1350E2861F2B3DC90072ED26;
+			remoteInfo = CodeIgniterIOSTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1350E2871F2B3DC90072ED26 /* CodeIgniterIOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeIgniterIOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1350E28B1F2B3DC90072ED26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1350E28D1F2B3DC90072ED26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1350E28E1F2B3DC90072ED26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1350E2901F2B3DC90072ED26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1350E2911F2B3DC90072ED26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1350E2941F2B3DC90072ED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1350E2961F2B3DC90072ED26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1350E2991F2B3DC90072ED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1350E29B1F2B3DC90072ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1350E2A01F2B3DC90072ED26 /* CodeIgniterIOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeIgniterIOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1350E2A41F2B3DC90072ED26 /* CodeIgniterIOSTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeIgniterIOSTestTests.m; sourceTree = "<group>"; };
+		1350E2A61F2B3DC90072ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1350E2AB1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeIgniterIOSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1350E2AF1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeIgniterIOSTestUITests.m; sourceTree = "<group>"; };
+		1350E2B11F2B3DC90072ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1350E2BE1F2B3E190072ED26 /* CMMapHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapHTTPSessionManager.h; sourceTree = "<group>"; };
+		1350E2BF1F2B3E190072ED26 /* CMMapHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapHTTPSessionManager.m; sourceTree = "<group>"; };
+		1350E2C01F2B3E190072ED26 /* CMMapNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapNetworking.h; sourceTree = "<group>"; };
+		1350E2C11F2B3E190072ED26 /* CMMapNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		1350E2C21F2B3E190072ED26 /* CMMapNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		1350E2C31F2B3E190072ED26 /* CMMapSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapSecurityPolicy.h; sourceTree = "<group>"; };
+		1350E2C41F2B3E190072ED26 /* CMMapSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapSecurityPolicy.m; sourceTree = "<group>"; };
+		1350E2C51F2B3E190072ED26 /* CMMapURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapURLRequestSerialization.h; sourceTree = "<group>"; };
+		1350E2C61F2B3E190072ED26 /* CMMapURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapURLRequestSerialization.m; sourceTree = "<group>"; };
+		1350E2C71F2B3E190072ED26 /* CMMapURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapURLResponseSerialization.h; sourceTree = "<group>"; };
+		1350E2C81F2B3E190072ED26 /* CMMapURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapURLResponseSerialization.m; sourceTree = "<group>"; };
+		1350E2C91F2B3E190072ED26 /* CMMapURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapURLSessionManager.h; sourceTree = "<group>"; };
+		1350E2CA1F2B3E190072ED26 /* CMMapURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapURLSessionManager.m; sourceTree = "<group>"; };
+		1350E2CC1F2B3E190072ED26 /* CMMapNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapNetworkingManager.h; sourceTree = "<group>"; };
+		1350E2CD1F2B3E190072ED26 /* CMMapNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapNetworkingManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1350E2841F2B3DC90072ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350E29D1F2B3DC90072ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350E2A81F2B3DC90072ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1350E27E1F2B3DC90072ED26 = {
+			isa = PBXGroup;
+			children = (
+				1350E2891F2B3DC90072ED26 /* CodeIgniterIOSTest */,
+				1350E2A31F2B3DC90072ED26 /* CodeIgniterIOSTestTests */,
+				1350E2AE1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests */,
+				1350E2881F2B3DC90072ED26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1350E2881F2B3DC90072ED26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1350E2871F2B3DC90072ED26 /* CodeIgniterIOSTest.app */,
+				1350E2A01F2B3DC90072ED26 /* CodeIgniterIOSTestTests.xctest */,
+				1350E2AB1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1350E2891F2B3DC90072ED26 /* CodeIgniterIOSTest */ = {
+			isa = PBXGroup;
+			children = (
+				1350E2BD1F2B3E190072ED26 /* CMMapNetworking */,
+				1350E2CB1F2B3E190072ED26 /* Manager */,
+				1350E28D1F2B3DC90072ED26 /* AppDelegate.h */,
+				1350E28E1F2B3DC90072ED26 /* AppDelegate.m */,
+				1350E2901F2B3DC90072ED26 /* ViewController.h */,
+				1350E2911F2B3DC90072ED26 /* ViewController.m */,
+				1350E2931F2B3DC90072ED26 /* Main.storyboard */,
+				1350E2961F2B3DC90072ED26 /* Assets.xcassets */,
+				1350E2981F2B3DC90072ED26 /* LaunchScreen.storyboard */,
+				1350E29B1F2B3DC90072ED26 /* Info.plist */,
+				1350E28A1F2B3DC90072ED26 /* Supporting Files */,
+			);
+			path = CodeIgniterIOSTest;
+			sourceTree = "<group>";
+		};
+		1350E28A1F2B3DC90072ED26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1350E28B1F2B3DC90072ED26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1350E2A31F2B3DC90072ED26 /* CodeIgniterIOSTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1350E2A41F2B3DC90072ED26 /* CodeIgniterIOSTestTests.m */,
+				1350E2A61F2B3DC90072ED26 /* Info.plist */,
+			);
+			path = CodeIgniterIOSTestTests;
+			sourceTree = "<group>";
+		};
+		1350E2AE1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1350E2AF1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests.m */,
+				1350E2B11F2B3DC90072ED26 /* Info.plist */,
+			);
+			path = CodeIgniterIOSTestUITests;
+			sourceTree = "<group>";
+		};
+		1350E2BD1F2B3E190072ED26 /* CMMapNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1350E2BE1F2B3E190072ED26 /* CMMapHTTPSessionManager.h */,
+				1350E2BF1F2B3E190072ED26 /* CMMapHTTPSessionManager.m */,
+				1350E2C01F2B3E190072ED26 /* CMMapNetworking.h */,
+				1350E2C11F2B3E190072ED26 /* CMMapNetworkReachabilityManager.h */,
+				1350E2C21F2B3E190072ED26 /* CMMapNetworkReachabilityManager.m */,
+				1350E2C31F2B3E190072ED26 /* CMMapSecurityPolicy.h */,
+				1350E2C41F2B3E190072ED26 /* CMMapSecurityPolicy.m */,
+				1350E2C51F2B3E190072ED26 /* CMMapURLRequestSerialization.h */,
+				1350E2C61F2B3E190072ED26 /* CMMapURLRequestSerialization.m */,
+				1350E2C71F2B3E190072ED26 /* CMMapURLResponseSerialization.h */,
+				1350E2C81F2B3E190072ED26 /* CMMapURLResponseSerialization.m */,
+				1350E2C91F2B3E190072ED26 /* CMMapURLSessionManager.h */,
+				1350E2CA1F2B3E190072ED26 /* CMMapURLSessionManager.m */,
+			);
+			path = CMMapNetworking;
+			sourceTree = "<group>";
+		};
+		1350E2CB1F2B3E190072ED26 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1350E2CC1F2B3E190072ED26 /* CMMapNetworkingManager.h */,
+				1350E2CD1F2B3E190072ED26 /* CMMapNetworkingManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1350E2861F2B3DC90072ED26 /* CodeIgniterIOSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1350E2B41F2B3DC90072ED26 /* Build configuration list for PBXNativeTarget "CodeIgniterIOSTest" */;
+			buildPhases = (
+				1350E2831F2B3DC90072ED26 /* Sources */,
+				1350E2841F2B3DC90072ED26 /* Frameworks */,
+				1350E2851F2B3DC90072ED26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeIgniterIOSTest;
+			productName = CodeIgniterIOSTest;
+			productReference = 1350E2871F2B3DC90072ED26 /* CodeIgniterIOSTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1350E29F1F2B3DC90072ED26 /* CodeIgniterIOSTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1350E2B71F2B3DC90072ED26 /* Build configuration list for PBXNativeTarget "CodeIgniterIOSTestTests" */;
+			buildPhases = (
+				1350E29C1F2B3DC90072ED26 /* Sources */,
+				1350E29D1F2B3DC90072ED26 /* Frameworks */,
+				1350E29E1F2B3DC90072ED26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1350E2A21F2B3DC90072ED26 /* PBXTargetDependency */,
+			);
+			name = CodeIgniterIOSTestTests;
+			productName = CodeIgniterIOSTestTests;
+			productReference = 1350E2A01F2B3DC90072ED26 /* CodeIgniterIOSTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1350E2AA1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1350E2BA1F2B3DC90072ED26 /* Build configuration list for PBXNativeTarget "CodeIgniterIOSTestUITests" */;
+			buildPhases = (
+				1350E2A71F2B3DC90072ED26 /* Sources */,
+				1350E2A81F2B3DC90072ED26 /* Frameworks */,
+				1350E2A91F2B3DC90072ED26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1350E2AD1F2B3DC90072ED26 /* PBXTargetDependency */,
+			);
+			name = CodeIgniterIOSTestUITests;
+			productName = CodeIgniterIOSTestUITests;
+			productReference = 1350E2AB1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1350E27F1F2B3DC90072ED26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chinamobile.cmcc;
+				TargetAttributes = {
+					1350E2861F2B3DC90072ED26 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LS4HKQEU95;
+						ProvisioningStyle = Automatic;
+					};
+					1350E29F1F2B3DC90072ED26 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LS4HKQEU95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1350E2861F2B3DC90072ED26;
+					};
+					1350E2AA1F2B3DC90072ED26 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LS4HKQEU95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1350E2861F2B3DC90072ED26;
+					};
+				};
+			};
+			buildConfigurationList = 1350E2821F2B3DC90072ED26 /* Build configuration list for PBXProject "CodeIgniterIOSTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1350E27E1F2B3DC90072ED26;
+			productRefGroup = 1350E2881F2B3DC90072ED26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1350E2861F2B3DC90072ED26 /* CodeIgniterIOSTest */,
+				1350E29F1F2B3DC90072ED26 /* CodeIgniterIOSTestTests */,
+				1350E2AA1F2B3DC90072ED26 /* CodeIgniterIOSTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1350E2851F2B3DC90072ED26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350E29A1F2B3DC90072ED26 /* LaunchScreen.storyboard in Resources */,
+				1350E2971F2B3DC90072ED26 /* Assets.xcassets in Resources */,
+				1350E2951F2B3DC90072ED26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350E29E1F2B3DC90072ED26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350E2A91F2B3DC90072ED26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1350E2831F2B3DC90072ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350E2D41F2B3E190072ED26 /* CMMapNetworkingManager.m in Sources */,
+				1350E2D21F2B3E190072ED26 /* CMMapURLResponseSerialization.m in Sources */,
+				1350E2921F2B3DC90072ED26 /* ViewController.m in Sources */,
+				1350E2D11F2B3E190072ED26 /* CMMapURLRequestSerialization.m in Sources */,
+				1350E2CF1F2B3E190072ED26 /* CMMapNetworkReachabilityManager.m in Sources */,
+				1350E2CE1F2B3E190072ED26 /* CMMapHTTPSessionManager.m in Sources */,
+				1350E2D31F2B3E190072ED26 /* CMMapURLSessionManager.m in Sources */,
+				1350E28F1F2B3DC90072ED26 /* AppDelegate.m in Sources */,
+				1350E2D01F2B3E190072ED26 /* CMMapSecurityPolicy.m in Sources */,
+				1350E28C1F2B3DC90072ED26 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350E29C1F2B3DC90072ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350E2A51F2B3DC90072ED26 /* CodeIgniterIOSTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350E2A71F2B3DC90072ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350E2B01F2B3DC90072ED26 /* CodeIgniterIOSTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1350E2A21F2B3DC90072ED26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1350E2861F2B3DC90072ED26 /* CodeIgniterIOSTest */;
+			targetProxy = 1350E2A11F2B3DC90072ED26 /* PBXContainerItemProxy */;
+		};
+		1350E2AD1F2B3DC90072ED26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1350E2861F2B3DC90072ED26 /* CodeIgniterIOSTest */;
+			targetProxy = 1350E2AC1F2B3DC90072ED26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1350E2931F2B3DC90072ED26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1350E2941F2B3DC90072ED26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1350E2981F2B3DC90072ED26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1350E2991F2B3DC90072ED26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1350E2B21F2B3DC90072ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1350E2B31F2B3DC90072ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1350E2B51F2B3DC90072ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LS4HKQEU95;
+				INFOPLIST_FILE = CodeIgniterIOSTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinamobile.cmcc.map.CodeIgniterIOSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1350E2B61F2B3DC90072ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LS4HKQEU95;
+				INFOPLIST_FILE = CodeIgniterIOSTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinamobile.cmcc.map.CodeIgniterIOSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1350E2B81F2B3DC90072ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LS4HKQEU95;
+				INFOPLIST_FILE = CodeIgniterIOSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinamobile.cmcc.map.CodeIgniterIOSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeIgniterIOSTest.app/CodeIgniterIOSTest";
+			};
+			name = Debug;
+		};
+		1350E2B91F2B3DC90072ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LS4HKQEU95;
+				INFOPLIST_FILE = CodeIgniterIOSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinamobile.cmcc.map.CodeIgniterIOSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeIgniterIOSTest.app/CodeIgniterIOSTest";
+			};
+			name = Release;
+		};
+		1350E2BB1F2B3DC90072ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LS4HKQEU95;
+				INFOPLIST_FILE = CodeIgniterIOSTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinamobile.cmcc.map.CodeIgniterIOSTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CodeIgniterIOSTest;
+			};
+			name = Debug;
+		};
+		1350E2BC1F2B3DC90072ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LS4HKQEU95;
+				INFOPLIST_FILE = CodeIgniterIOSTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinamobile.cmcc.map.CodeIgniterIOSTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CodeIgniterIOSTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1350E2821F2B3DC90072ED26 /* Build configuration list for PBXProject "CodeIgniterIOSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1350E2B21F2B3DC90072ED26 /* Debug */,
+				1350E2B31F2B3DC90072ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1350E2B41F2B3DC90072ED26 /* Build configuration list for PBXNativeTarget "CodeIgniterIOSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1350E2B51F2B3DC90072ED26 /* Debug */,
+				1350E2B61F2B3DC90072ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1350E2B71F2B3DC90072ED26 /* Build configuration list for PBXNativeTarget "CodeIgniterIOSTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1350E2B81F2B3DC90072ED26 /* Debug */,
+				1350E2B91F2B3DC90072ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1350E2BA1F2B3DC90072ED26 /* Build configuration list for PBXNativeTarget "CodeIgniterIOSTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1350E2BB1F2B3DC90072ED26 /* Debug */,
+				1350E2BC1F2B3DC90072ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1350E27F1F2B3DC90072ED26 /* Project object */;
+}
